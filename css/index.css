@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -66,11 +67,136 @@ p {
     line-height: 1.4;
 }
 
+.links {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5% 10%;
+}
+
+.button{
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 5%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.strategy{
+    display: flex;
+}
+
+.strat{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.strat h2 {
+    margin: 4% 0;
+    text-align: justify;
+}
+
+.strat p{
+    text-align: justify;
+}
+
+.egy {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.egy h2 {
+    margin: 4% 0;
+    text-align: justify;
+}
+
+.egy p{
+    text-align: justify;
+}
+
+.workplace{
+    display: flex;
+}
+
+.work {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.work h2 {
+    margin: 4% 0;
+    text-align: justify;
+}
+
+.work p{
+    text-align: justify;
+}
+
+.place {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.place h2 {
+    margin: 4% 0;
+    text-align: justify;
+}
+
+.place p{
+    text-align: justify;
+}
+
+#jumbo {
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+
+#view {
+    
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.sec1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.sec2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.sec3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.sec4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.sec5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +216,36 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.middle-content .boxes #teal{
+    background-color: teal;
+}
+.middle-content .boxes #gold{
+    background-color: gold;
+}
+.middle-content .boxes #cadetblue{
+    background-color: cadetblue;
+}
+.middle-content .boxes #coral{
+    background-color: coral;
+}
+.middle-content .boxes #crimson{
+    background-color: crimson;
+}
+.middle-content .boxes #forestgreen{
+    background-color: forestgreen;
+}
+.middle-content .boxes #darkorchid{
+    background-color: darkorchid;
+}
+.middle-content .boxes #hotpink{
+    background-color: hotpink;
+}
+.middle-content .boxes #indigo{
+    background-color: indigo;
+}
+.middle-content .boxes #dodgerblue{
+    background-color: dodgerblue;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
